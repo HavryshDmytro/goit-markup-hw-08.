@@ -1,0 +1,80 @@
+footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.contact {
+    margin-right: 70px;
+    width: 231px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    & .map {
+        color: var(--white-color);
+        font-style: normal;
+    
+        text-decoration: none;
+    }
+    
+    & .auth {
+        color: rgba(255, 255, 255, 0.6);
+    
+        font-style: normal;
+    
+        text-decoration: none;
+    }
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    color: var(--white-color);
+}
+
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.join-social {
+    margin-right: 93px;
+}
+
+.join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+    fill: var(--white-color);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color var(--animation);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+}

@@ -1,0 +1,29 @@
+.clients-list {
+    display: flex;
+}
+
+.clients:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-page {
+    fill: var(--social-icon);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--social-icon);
+    border-radius: 4px;
+
+    transition: border var(--animation),
+    fill var(--animation);
+    
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
+}

@@ -1,0 +1,22 @@
+/* header */
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@import "./logo";
+
+@import "./site-nav";
+
+@import "./auth-nav";
